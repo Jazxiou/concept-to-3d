@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+dist/
+
+# uv
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Large ML outputs — tracked by logs/configs, not git
+outputs/
+*.ply
+*.splat
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.bin
+
+# Model caches
+.cache/
+huggingface/
+
+# Images (inputs managed locally, not committed)
+inputs/
+*.png
+*.jpg
+*.jpeg
+*.exr
+
+# Logs that auto-regenerate
+wandb/
+lightning_logs/
+nerfstudio_models/
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
