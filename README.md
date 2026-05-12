@@ -10,6 +10,7 @@ A three-stage generative AI pipeline converting 2D concept art into navigable, e
 ## Requirements
 
 ## Structure
+```text
 concept-to-3d/
 ├── envs/                  # conda env specs (yaml files)
 ├── inputs/                # source concept art images
@@ -26,3 +27,4 @@ concept-to-3d/
 ├── notebooks/             # exploratory Jupyter notebooks
 ├── logs/                  # prompt logs, run configs
 └── paper/                 # written report
+```
