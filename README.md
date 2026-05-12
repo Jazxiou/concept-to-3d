@@ -12,7 +12,6 @@ A three-stage generative AI pipeline converting 2D concept art into navigable, e
 ## Structure
 ```text
 concept-to-3d/
-├── envs/                  # conda env specs (yaml files)
 ├── inputs/                # source concept art images
 ├── outputs/
 │   ├── multiview/         # Zero123++ synthesised views
